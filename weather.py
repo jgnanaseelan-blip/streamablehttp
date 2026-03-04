@@ -1,7 +1,7 @@
 from typing import Any
 import httpx
 from fastmcp import FastMCP
-from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.cors import CORSMiddleware
 
 # Initialize FastMCP server
 mcp = FastMCP("weather", stateless_http=True)

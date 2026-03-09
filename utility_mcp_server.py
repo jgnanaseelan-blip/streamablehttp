@@ -131,10 +131,10 @@ def get_disk_space(path: str = "/") -> Dict:
 
 if __name__ == "__main__":
 
-    logger.info("Starting MCP Server on port 8000")
+    logger.info("Starting MCP Server on port 8080")
 
     mcp.run(
         transport="sse",
         host="0.0.0.0",
-        port=8000
+        port=8080
     )

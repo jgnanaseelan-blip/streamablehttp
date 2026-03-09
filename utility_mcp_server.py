@@ -39,7 +39,7 @@ tavily_client = TavilyClient(TAVILY_API_KEY)
 
 mcp = FastMCP(
     name="Utility Tools MCP Server",
-    port=8000
+    port=8080
 )
 
 

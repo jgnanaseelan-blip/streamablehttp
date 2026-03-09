@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: weather
+Version: 0.1.0
+Summary: Weather MCP Server
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastmcp>=2.10.1
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: starlette>=0.37.2
+Requires-Dist: tavily-python>=0.3.0
+Requires-Dist: pytz
+
 # Weather MCP Server
 
 A Model Context Protocol (MCP) server that provides weather forecasts and alerts using the National Weather Service (NWS) API. This server is built with FastMCP and can be deployed as a remote HTTP service.
